@@ -12,6 +12,23 @@ Stable Diffusion; Latent Diffusion Models(LDM)
 [Photorealistic Text-to-Image Diffusion Models with Deep Language Understanding (may 2022)](https://arxiv.org/pdf/2205.11487)
 Imagen
 
+
+<img src="resources/flow_matching.jpg" width="300"/>
+
+<div align="center">
+  <div>&nbsp;</div>
+  <img src="resources/latent_diffusion.jpg" width="300"/>
+  <img src="resources/udit_scheme" width="400"/>
+  <div align="center">latent diffusion architecture (VAE + UNET) | various DiT architectures</div>
+</div>
+
+
+<!-- ![Demo GIF](resources/not_luck.gif)
+<img src="resources/not_luck.gif" alt="drawing" width="200"/>
+<div>Procgen - BigFish (wip)</div> -->
+
+
+
 ## An exploration into timestep stepsize during sampling
 ---
 After having trained a Flow matching model, the image generation is performed through a non-trivial sampling step. This sampling step is essentially a reversal of the ODE that the flow model represents and there are many ODE solvers to accomplish this. While adaptive solvers are able to produce high quality generations with little hyperparameter tuning, it is at the expense of speed and simplicity.
