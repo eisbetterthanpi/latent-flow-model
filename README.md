@@ -1,25 +1,35 @@
 # latent-flow-model
-conditional latent flow matching from scratch
+conditional latent flow matching from scratch<br/><br/>
 simple, minimal, classifier free, PyTorch
-
+<br/><br/>
 Continuous Normalizing Flows (CNFs)
 Flow Matching (FM)
 [Flow Matching for Generative Modeling (feb 2023)](https://arxiv.org/pdf/2210.02747.pdf)
-
+<br/><br/>
 [High-Resolution Image Synthesis with Latent Diffusion Models (apr 2022)](https://arxiv.org/pdf/2112.10752)
 Stable Diffusion; Latent Diffusion Models(LDM)
-
+<br/><br/>
 [Photorealistic Text-to-Image Diffusion Models with Deep Language Understanding (may 2022)](https://arxiv.org/pdf/2205.11487)
 Imagen
 
 
-<img src="resources/flow_matching.jpg" width="300"/>
 
 <div align="center">
   <div>&nbsp;</div>
-  <img src="resources/latent_diffusion.jpg" width="300"/>
-  <img src="resources/udit_scheme" width="400"/>
-  <div align="center">latent diffusion architecture (VAE + UNET) | various DiT architectures</div>
+  <img src="resources/flow_matching.jpg" width="400"/>
+  <div align="center">Flow Matching
+    <br/>
+    src: arxiv.org/pdf/2210.02747.pdf</div>
+  <br/>
+  <img src="resources/latent_diffusion.jpg" width="400"/>
+  <div align="center">latent diffusion architecture (VAE + UNET)
+    <br/>
+  src: High-Resolution Image Synthesis with Latent Diffusion Models arxiv.org/pdf/2112.10752</div>
+  <br/>
+  <img src="resources/udit_scheme.png" width="400"/>
+  <div align="center">various DiT architectures
+    <br/>
+  src: U-DiTs: Downsample Tokens in U-Shaped Diffusion Transformers arxiv.org/pdf/2405.02730v1</div>
 </div>
 
 
